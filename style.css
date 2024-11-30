@@ -1,0 +1,66 @@
+body {
+    background-color: #111111;
+    text-align: center;
+}
+
+h1,
+label {
+    color: white;
+}
+
+#main-menu {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: #222222;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+#forms {
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+#length {
+    width: 40px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#password-generated {
+    margin-top: 50%;
+}
+
+#password {
+    text-align: center;
+    border-radius: 12px;
+    height: 40px;
+}
+
+#result {
+    margin-top: 10%;
+}
+
+@media (max-width: 600px) {
+    #main-menu {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+        background-color: #222222;
+        margin: 0 auto;
+        margin-top: 6%;
+    }
+}
